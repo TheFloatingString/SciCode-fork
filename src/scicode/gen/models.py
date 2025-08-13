@@ -9,7 +9,7 @@ import litellm
 from litellm.utils import validate_environment as litellm_validate_environment
 
 from scicode import keys_cfg_path
-# from scicode.utils.log import get_logger
+from scicode.utils.log import get_logger
 
 logger = get_logger("models")
 
